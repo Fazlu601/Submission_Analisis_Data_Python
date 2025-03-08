@@ -17,7 +17,7 @@ datetime_cols = [
 ]
 
 try:
-    all_df = pd.read_csv("../data/all_data.xls")  # Pastikan file ini CSV, bukan Excel
+    all_df = pd.read_csv("../data/all_data.xls") 
 except:
     all_df = pd.read_excel("../data/all_data.xls")
 
