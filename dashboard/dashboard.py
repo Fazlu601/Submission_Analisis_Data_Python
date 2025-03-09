@@ -17,18 +17,18 @@ datetime_cols = [
 ]
 
 try:
-    all_df = pd.read_csv("../data/all_data.xls")
+    all_df = pd.read_csv("./data/all_data.xls")
 except:
-    all_df = pd.read_excel("../data/all_data.xls")
+    all_df = pd.read_excel("./data/all_data.xls")
 
 all_df.sort_values(by="order_approved_at", inplace=True)
 all_df.reset_index(drop=True, inplace=True)
 
 # Geolocation Dataset
 try:
-    geolocation = pd.read_csv('../data/geolocation.xls')
+    geolocation = pd.read_csv('./data/geolocation.xls')
 except:
-    geolocation = pd.read_excel('../data/geolocation.xls')
+    geolocation = pd.read_excel('./data/geolocation.xls')
 
 data = geolocation.drop_duplicates(subset='customer_unique_id')
 
