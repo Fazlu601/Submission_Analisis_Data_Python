@@ -4,7 +4,7 @@
 
 ## Deskripsi
 
-Proyek ini bertujuan untuk menganalisis data pada E-Commerce Public Dataset. Tujuan akhirnya adalah untuk menghasilkan wawasan dan informasi yang berguna dari data yang dianalisis.
+Proyek ini berfokus pada analisis data dari E-Commerce Public Dataset untuk mengungkap pola, tren, dan wawasan bisnis yang berharga. Tujuan akhirnya adalah menyajikan informasi yang dapat digunakan untuk pengambilan keputusan berbasis data.
 
 ## Struktur Direktori
 
