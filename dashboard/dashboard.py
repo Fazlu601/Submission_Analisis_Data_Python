@@ -17,7 +17,7 @@ datetime_cols = [
 ]
 
 try:
-    all_df = pd.read_csv("../data/all_data.xls")  # Pastikan file ini CSV, bukan Excel
+    all_df = pd.read_csv("../data/all_data.xls")
 except:
     all_df = pd.read_excel("../data/all_data.xls")
 
@@ -67,7 +67,6 @@ sum_order_items_df = function.create_sum_order_items_df()
 review_score, common_score = function.review_score_df()
 state, most_common_state = function.create_bystate_df()
 order_status, common_status = function.create_order_status()
-# rfm_df = function.create_rfm_df(main_df)
 
 # Dashboard
 st.header("Dashboard Brazilian E-Commerce :convenience_store:")
