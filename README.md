@@ -40,5 +40,10 @@ Proyek ini bertujuan untuk menganalisis data pada E-Commerce Public Dataset. Tuj
    jupyter notebook
    ```
    > Kemudian buka file Proyek_Analisis_Data_E_Commerce.ipynb melalui antarmuka Jupyter Notebook.
+Akses Dashboard Online
+   > 
+## Anda juga dapat mengakses dashboard yang telah dideploy melalui link berikut:
+
+🔗 [Akses Dashboard Online](https://fazlu601-submission-analisis-data-pyt-dashboarddashboard-k1btcz.streamlit.app/)
 
    
