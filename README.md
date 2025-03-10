@@ -15,7 +15,7 @@ Proyek ini berfokus pada analisis data dari E-Commerce Public Dataset untuk meng
   - **func.py**: Kumpulan fungsi yang digunakan dalam proyek.
   - **requirements.txt**: Daftar pustaka Python yang diperlukan.
 - **/data**: Direktori berisi dataset yang digunakan dalam proyek.
-- **Proyek_Analisis_Data_E_Commerce.ipynb**: File notebook utama yang digunakan untuk melakukan analisis data.
+- **notebook.ipynb**: File notebook utama yang digunakan untuk melakukan analisis data.
 - **README.md**: Dokumentasi proyek.
 
 ## Instalasi & Penggunaan
