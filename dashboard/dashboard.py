@@ -24,9 +24,9 @@ all_df.sort_values(by="order_approved_at", inplace=True)
 all_df.reset_index(drop=True, inplace=True)
 
 try:
-    geolocation = pd.read_csv('../data/geolocation.xls')
+    geolocation = pd.read_csv('./data/geolocation.xls')
 except:
-    geolocation = pd.read_excel('../data/geolocation.xls')
+    geolocation = pd.read_excel('./data/geolocation.xls')
 
 # ---- Dashboard Title ----
 st.title("Analisis E-Commerce Brasil")
